@@ -10,6 +10,6 @@ Objective
 Develop a webpage that can fetch images from one of Nasa's api. The api chosen is  Nasa APOD API 
 
 Description
-This website once opened, it showed the user the images of the last 10 days by default , in other words the website displays the picture of the last 10 days. 
+This website once opened, it shows the user the images of the last 10 days by default , in other words the website displays the picture of the last 10 days. 
 In addition to that it also shows the title, date and descrption of the image. Another feature that was implemented is to make the user able to pick any date in the calender( it should be reasonable range (API has it available since July 1995) and let the user see the image of that specific date chosen by him/her.
 the user also can always like and unlike an image, it is always stored. Most importantly that the front end components were implemented in a way to make sure that the site is reponsive no matter what size it gets the page always adjusts to it. When the user realods or refreshes the page the values of a specific picture that was saved/unsaved is maintained and stored (if it was liked then it shows  still "unlike"  even after refreshing the page , it shows unlike because it was already liked so the only option is to unlike now) 
